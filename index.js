@@ -2,7 +2,7 @@ const http = require("http");
 const url = require("url");
 const { StringDecoder } = require("string_decoder");
 const shevchenko = require("shevchenko");
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 80;
 
 const server = http.createServer(function (req, res) {
   const parsedUrl = url.parse(req.url, true);
