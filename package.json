@@ -1,0 +1,14 @@
+{
+  "name": "shevchenko-service-api",
+  "version": "1.0.0",
+  "description": "shevchenko service for inflecting names",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=80 node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shevchenko": "^2.0.7"
+  }
+}
