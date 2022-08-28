@@ -1,0 +1,6 @@
+{
+  "name": "Shevchenko API",
+  "description": "Part of the Deploying Node to Dokku tutorial",
+  "repository": "https://github.com/FlintOFF/shevchenko.git",
+  "keywords": ["node", "shevchenko"]
+}
