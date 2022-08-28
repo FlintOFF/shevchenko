@@ -7,6 +7,11 @@ http://shevchenko.38.242.138.64.sslip.io/api
 https://www.pedroalonso.net/blog/hosting-nodejs-in-dokku
 
 
+### Docker
+https://docs.docker.com/samples/rails/
+
+`docker-compose --project-name="shevchenko" up` for simple start
+
 ## Shevchenko
 
 Before start service install dependencies first:

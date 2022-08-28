@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  shevchenko:
+    container_name: shevchenko
+    image: node:16
+    user: node
+    command: node index.js
+    ports:
+      - "3002:3002"
+    environment:
+      PORT: 3002
+    volumes:
+      - ./:/shevchenko-service
+    working_dir: /shevchenko-service
