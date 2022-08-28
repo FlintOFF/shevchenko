@@ -39,7 +39,7 @@ const server = http.createServer(function (req, res) {
 
 const handlers = {};
 
-handlers.shevchenko = function (data, cb) {
+handlers.api = function (data, cb) {
   const payloads = JSON.parse(data.payload);
   if (Array.isArray(payloads)) {
     const response = payloads.map((payload) => {
